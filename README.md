@@ -17,9 +17,9 @@ gRPC teknolojisi ise Google 'ın geliştirdiği en güncel yapı. Temel olarak b
 gRPC teknolojisinde wsdl adresimiz yerine .proto dosyamız var. Bu dosyamızdan vekil sınıflar oluşturarak metotlarımızı veya fonksiyonlarımızı çağırıyoruz.
 Buradaki sıkıntı wsdl dosyamız bir adreste bulunuyordu. Proto dosyamızın paylaşımı nasıl olacak güzel bir yol bulamadım. Çünkü İstemci uygulaması için .proto dosyasının güncelliği çok önemli.
 
-### Proje Geliştirme
+## Proje Geliştirme
 
-**Sunucu Uygulaması**
+### Sunucu Uygulaması
 
 Proje geliştirme kısmında öncelikle *.proto* dosyamızı oluşturmakla başlayalım.
 
@@ -38,7 +38,7 @@ Projeyi derlediğimizde .proto dosyamızdan vekil sınıfımız otomatik oluştu
 
 Son olarak **program.cs** dosyamızda Server nesnemize parametreleri vererek sunucuyu başlatıyoruz.
 
-###İstemci Uygulamaları
+### İstemci Uygulamaları
 
 İstemci uygulamaları yazmadan <a href="https://github.com/uw-labs/bloomrpc/releases" target="_blank">BloomRPC</a> kullanarak  (SoapUI veya Postman gibi.) servislerimizi deneyebiliriz. BloomRPC açık kaynak kodlu ve çok güzel yazılmış sadece proto dosyasını seçerek tüm işlemleri kolaylıkla yapabiliyoruz.
 
