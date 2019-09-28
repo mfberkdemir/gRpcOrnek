@@ -2,6 +2,8 @@
 
 gRPC teknolojisi ile ilgili .Net Core 3 (v3.0.0-preview7) ile geliştirilmiş basit bir örnek.
 
+![](https://github.com/mfberkdemir/gRpcOrnek/blob/master/grpcBloom.JPG "")
+
 gRPC teknolojisi ile ilgili iki tane çok güzel makale var <a href="https://medium.com/@sddkal/grpc-api-rehberi-6dc561070c03" target="_blank">birincisi</a> ve Burak Selim Şenyurt hocanın <a href="https://buraksenyurt.com/post/grpc-nedir-nasil-uygulanir" target="_blank">makalesi</a>  mutlaka okunmalıdır.
 
 .Net Core 3 ile gelen template kullanırken hata aldığımdan dolayı sunucu ve istemci console uygulaması olarak oluşturulmuştur.
